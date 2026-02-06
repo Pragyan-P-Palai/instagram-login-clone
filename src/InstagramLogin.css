@@ -25,7 +25,7 @@ body {
   position: fixed;
   top: 40px;
   left: 40px;
-  width: 80px; 
+  width: 35px; /* Size for the Camera Icon */
   height: auto;
   cursor: pointer;
   z-index: 999;
@@ -225,6 +225,32 @@ body {
   text-decoration: underline;
 }
 
+/* --- GET THE APP SECTION --- */
+.get-the-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.get-app-text {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.app-stores {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.store-badge {
+  height: 40px;
+  cursor: pointer;
+}
+
+/* Footer */
 .footer {
   padding: 50px 20px 30px;
   display: flex;
