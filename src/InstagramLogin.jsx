@@ -32,7 +32,6 @@ const InstagramLogin = () => {
     alert("Switching to Sign Up page...");
   };
 
-  
   const handleLogoClick = () => {
     window.location.reload(); 
   };
@@ -113,6 +112,24 @@ const InstagramLogin = () => {
                Sign up
              </a>
           </div>
+
+          {/* --- GET THE APP SECTION --- */}
+          <div className="get-the-app">
+            <p className="get-app-text">Get the app.</p>
+            <div className="app-stores">
+              <img 
+                src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" 
+                alt="Get it on Google Play" 
+                className="store-badge"
+              />
+              <img 
+                src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Get_it_from_Microsoft_Badge.svg" 
+                alt="Get it from Microsoft" 
+                className="store-badge"
+              />
+            </div>
+          </div>
+
         </div>
       </div>
 
